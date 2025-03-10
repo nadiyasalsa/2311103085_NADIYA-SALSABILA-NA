@@ -62,7 +62,7 @@ if (isset($_POST['update'])) {
                         <option value="Tugas Harian" <?= $row['jenis'] == 'Tugas Harian' ? 'selected' : ''; ?>>Tugas Harian</option>
                         <option value="Proyek" <?= $row['jenis'] == 'Proyek' ? 'selected' : ''; ?>>Proyek</option>
                         <option value="Ujian" <?= $row['jenis'] == 'Ujian' ? 'selected' : ''; ?>>Ujian</option>
-                        <option value="Quiz" <?= $row['jenis'] == 'Quiz' ? 'selected' : ''; ?>>Quiz</option>
+                        <option value="Quis" <?= $row['jenis'] == 'Quis' ? 'selected' : ''; ?>>Quis</option>
                     </select>
                 </div>
                 <div class="mb-3">

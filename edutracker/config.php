@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$database = "dbedutracker";
+$database = "edutracker_db";
 
 $conn = mysqli_connect($host, $user, $password, $database);
 

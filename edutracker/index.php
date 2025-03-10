@@ -33,7 +33,7 @@ $result = mysqli_query($conn, "SELECT * FROM daftartugas ORDER BY deadline ASC")
                     <option value="Tugas Harian">Tugas Harian</option>
                     <option value="Proyek">Proyek</option>
                     <option value="Ujian">Ujian</option>
-                    <option value="Quiz">Quiz</option>
+                    <option value="Quis">Quis</option>
                 </select>
             </div>
             <div class="mb-2">
